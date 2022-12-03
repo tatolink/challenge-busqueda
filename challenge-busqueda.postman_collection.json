@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "e105586e-72dd-4d87-aaf4-8c67b085dd10",
+		"name": "challenge-busqueda",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1702005"
+	},
+	"item": [
+		{
+			"name": "Productos por Query Parameters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}items?q=1",
+					"host": [
+						"{{host}}items"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Todos los Productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}items/item/",
+					"host": [
+						"{{host}}items"
+					],
+					"path": [
+						"item",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Todos los Productos por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}items/item/1",
+					"host": [
+						"{{host}}items"
+					],
+					"path": [
+						"item",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:5000/api/",
+			"type": "string"
+		}
+	]
+}
