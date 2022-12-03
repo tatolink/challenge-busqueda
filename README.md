@@ -46,7 +46,7 @@ Este proyecto se instalo las dependencias de nodemon para ejecutarlo con live ac
 
 ### `npm install -g nodemon`
 
-Y para inciar el Priyecto se corre este comando:
+Y para inciar el Proyecto se corre este comando:
 
 ### `nodemon server.js`
 
