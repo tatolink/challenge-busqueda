@@ -7,6 +7,8 @@ El Proyecto esta Realizado con Reactjs con Hooks y NodeJs Express, el cual se di
 
 El proyecto esta alojado en la carpeta "Cliente", el cual contiene toda la parte Frontend del Proyecto el cual esta en ReactJs con Hooks.
 
+### `\Cliente`
+
 Basado en:
 
 * Usabilidad
@@ -15,8 +17,6 @@ Basado en:
 * Reutilización
 
 **Este proyecto se manejo con el Framework de Estilos en Bootstrap**
-
-### `\Cliente`
 
 ### Scripts para levantar el Proyecto del Cliente
 
@@ -36,7 +36,7 @@ Se generaron Vistas el cual son navgables independientemente con su propia URL:
 
 ## `Servidor`
 
-El proyecto esta alojado en la archivo .js "server", el cual contiene toda la parte Frontend del Proyecto el cual esta en NodeJs con Express.
+El proyecto esta alojado en la archivo .js "server", el cual contiene toda la parte Backend en donde alojamos las API Service del Proyecto el cual esta en NodeJs con Express.
 
 ### `server.js`
 
